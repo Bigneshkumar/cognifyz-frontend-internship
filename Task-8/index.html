@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8: Introduction to CSS Preprocessing</title>
+    <!-- Linking the compiled CSS file not the SCSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Sass Preprocessing</h1>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-wrapper container">
+        <section class="card-section">
+            <div class="card">
+                <h2>Sass Variables</h2>
+                <p>We use variables for keeping colors and font sizes consistent. If I need to change the primary theme color, I just change it once in the SCSS file!</p>
+                <button class="btn btn-primary">See Code</button>
+            </div>
+            
+            <div class="card">
+                <h2>Style Nesting</h2>
+                <p>Instead of writing long repetitive CSS selectors, Sass lets us nest our CSS code. This keeps our styling file looking a lot more organized.</p>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Frontend Dev Task 8 (Sass)</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 1.2rem 0;
+}
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.main-header .nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.main-header .nav-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.content-wrapper {
+  margin-top: 4rem;
+  margin-bottom: auto;
+}
+.content-wrapper .card-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.content-wrapper .card-section .card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  flex: 1;
+  min-width: 300px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.content-wrapper .card-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.content-wrapper .card-section .card h2 {
+  color: #3b82f6;
+  margin-bottom: 0.8rem;
+}
+.content-wrapper .card-section .card p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: rgb(55.7865168539, 76.2415730337, 109.7134831461);
+}
+.content-wrapper .card-section .card .btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.content-wrapper .card-section .card .btn.btn-primary {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+.content-wrapper .card-section .card .btn.btn-primary:hover {
+  background-color: rgb(11.1512195122, 99.1219512195, 242.8487804878);
+}
+.content-wrapper .card-section .card .btn.btn-secondary {
+  background-color: #10b981;
+  color: #ffffff;
+}
+.content-wrapper .card-section .card .btn.btn-secondary:hover {
+  background-color: rgb(11.9402985075, 138.0597014925, 96.2686567164);
+}
+
+.main-footer {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

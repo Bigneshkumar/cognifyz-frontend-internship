@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7: Component-Based Styling</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cognifyz Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Text Content -->
+            <div class="col-md-6 mb-4 mb-md-0">
+                <div class="hero-section">
+                    <h1 class="display-5 fw-bold text-dark">Welcome to Bootstrap UI</h1>
+                    <p class="lead text-muted my-3">
+                        This webpage uses the Bootstrap framework to demonstrate modular design principles. Using pre-built components like navbars, cards, and a grid system helps speed up development while keeping the layout fully responsive.
+                    </p>
+                    <button class="btn btn-primary btn-lg custom-btn mt-2">Get Started</button>
+                    <button class="btn btn-outline-secondary btn-lg ms-2 mt-2">Learn More</button>
+                </div>
+            </div>
+            
+            <!-- Cards Section -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6 mb-3">
+                        <div class="card h-100 shadow-sm border-0 custom-card">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold" style="color: #3f51b5;">Responsiveness</h5>
+                                <p class="card-text mt-2">Bootstrap offers an intuitive grid layout which makes responsive design super easy across devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                        <div class="card h-100 shadow-sm border-0 custom-card">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold text-success">Ready Components</h5>
+                                <p class="card-text mt-2">We can easily add styling quickly utilizing buttons, badges, navbars and many built-in UI components.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS link for components -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

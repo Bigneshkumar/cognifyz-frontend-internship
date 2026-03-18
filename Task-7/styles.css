@@ -1,0 +1,63 @@
+/* General Reset & Body Styles */
+body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Customizing the Bootstrap Navbar */
+.bg-custom {
+    background-color: #4338ca; /* Deep indigo color */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e0e7ff !important;
+}
+
+/* Custom button styling modifying Bootstrap defaults */
+.custom-btn {
+    background-color: #4338ca;
+    border-color: #4338ca;
+    box-shadow: 0 4px 6px -1px rgba(67, 56, 202, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+    background-color: #3730a3;
+    border-color: #3730a3;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(67, 56, 202, 0.4);
+}
+
+/* Enhancing standard Bootstrap Card */
+.custom-card {
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+}
+
+.hero-section {
+    padding-right: 2rem;
+}
+
+/* Basic typography tweaks */
+h1.display-5 {
+    letter-spacing: -0.5px;
+}

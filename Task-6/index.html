@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6: Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="header">
+            <h2>Get In Touch</h2>
+            <p>Fill out the form below. Real-time client-side validation is enforced.</p>
+        </div>
+
+        <form id="contact-form" novalidate>
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                <span class="error-text" id="name-error">Name is required.</span>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com">
+                <span class="error-text" id="email-error">Valid email is required.</span>
+            </div>
+
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message here..."></textarea>
+                <span class="error-text" id="message-error">Message cannot be empty.</span>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div class="success-msg" id="success-msg">Your message has been successfully submitted!</div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
